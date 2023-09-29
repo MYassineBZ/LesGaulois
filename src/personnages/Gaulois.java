@@ -3,10 +3,15 @@ package personnages;
 public class Gaulois {
 	private String nom;
 	private int force;
+
 	private int effetPotion = 1;
 
 	public int getEffetPotion() {
 		return effetPotion;
+	}
+
+	public int getForce() {
+		return force;
 	}
 
 	public void setEffetPotion(int effetPotion) {
